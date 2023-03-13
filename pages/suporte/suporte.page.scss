@@ -1,0 +1,132 @@
+body {
+    background: url(../../../assets/background/background_suporte.png);
+}
+
+.div_titile {
+    width: 390px;
+    height: 120px;
+    border: none;
+}
+
+h3{
+    
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    color: antiquewhite;
+}
+
+
+// .faq {
+//     display: flex;
+//     align-items: center;
+//     justify-content: flex-start;
+//     position: relative;
+    
+//     font-size: 3px;
+//     top: 5rem;
+//     height: 10vh;
+// }
+
+// .faq h2 {
+
+//     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+//     font-weight: 700;
+//     font-size: 26px;
+//     line-height: 31px;
+//     position: absolute;
+//     bottom: 4rem;
+//     cursor: default;
+//     color: white;
+//     font-size: 26px;
+
+// }
+
+// .accordion {
+//     width: 100%;
+    
+//     position: absolute;
+//     top: 3rem;
+//     right: 1.7rem;
+    
+// }
+
+// .accordion li {
+//     list-style: none;
+    
+// }
+
+// .accordion li label {
+//     display: flex;
+//     align-items: flex-start;
+//     padding: 10px 130px;
+//     font-size: 12px;
+//     font-weight: 500;
+//     background: #ffffff;
+//     margin-bottom: 3px;
+//     cursor: pointer;
+//     position: relative;
+//     border-radius: 50px;
+// }
+
+// label::after {
+//     content: '+';
+//     font-size: 25px;
+//     position: absolute;
+//     right: 20px;
+//     transition: transform 0.6s;
+// }
+
+// input[type="radio"] {
+//     display: none;
+// }
+
+// .accordion .content {
+//     background: #d7dddd;
+//     text-align: left;
+//     max-height: 0;
+//     overflow: hidden;
+//     transition: max-height 0.5s, padding 0.5s;
+//     border-radius: 50px;
+    
+// }
+
+// .accordion input[type="radio"]:checked+label+.content {
+//     max-height: 500px;
+//     padding: 20px 20px;
+//     font-size: 12px;
+// }
+
+// .accordion input[type="radio"]:checked+label::after {
+//     transform: rotate(135deg);
+// }
+
+// .faq .email-signup {
+//     max-width: 300px;
+//     margin: 20px auto 60px;
+// }
+
+// .faq small {
+//     font-size: 15px;
+// }
+
+    
+    // / Estilos para dispositivos móveis /
+    @media only screen and (max-width: 600px) {
+    .container {
+    max-width: 100%;
+    padding: 20px;
+    
+    
+    .question {
+        font-size: 1.2rem;
+    }
+    
+    .answer {
+        visibility: hidden;
+        font-size: 1rem;
+    }
+}
+}
